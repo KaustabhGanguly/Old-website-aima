@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercises</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">AIMA <span>Exercises</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">More Info</a></li>
+					<li><a href="exercises.html">Exercises</a></li>
+				</ul>
+			</nav>
+		<!-- Main -->
+			<div id="main" class="container" style = " text-align: left; ">
+
+				<!-- Content -->
+				<h5><b>EXERCISES</b></h1>
+        <h1 id="24perception">24. Perception</h1>
+
+<p><strong>24.1</strong> In the shadow of a tree with a dense, leafy canopy, one sees a number of
+light spots. Surprisingly, they all appear to be circular. Why? After
+all, the gaps between the leaves through which the sun shines are not
+likely to be circular.</p>
+
+<p><strong>24.2</strong> Consider a picture of a white sphere floating in front of a black
+backdrop. The image curve separating white pixels from black pixels is
+sometimes called the “outline” of the sphere. Show that the outline of a
+sphere, viewed in a perspective camera, can be an ellipse. Why do
+spheres not look like ellipses to you?</p>
+
+<p><strong>24.3</strong> Consider an infinitely long cylinder of radius $r$ oriented with its
+axis along the $y$-axis. The cylinder has a Lambertian surface and is
+viewed by a camera along the positive $z$-axis. What will you expect to
+see in the image if the cylinder is illuminated by a point source at
+infinity located on the positive $x$-axis? Draw the contours of constant
+brightness in the projected image. Are the contours of equal brightness
+uniformly spaced?</p>
+
+<p><strong>24.4</strong> Edges in an image can correspond to a variety of events in a scene.
+Consider Figure <a href="#/">illuminationfigure</a>
+(page <a href="#/">illuminationfigure</a>), and assume that it is a picture of a real
+three-dimensional scene. Identify ten different brightness edges in the
+image, and for each, state whether it corresponds to a discontinuity in
+(a) depth, (b) surface orientation, (c) reflectance, or (d)
+illumination.</p>
+
+<p><strong>24.5</strong> A stereoscopic system is being contemplated for terrain mapping. It will
+consist of two CCD cameras, each having ${512}\times {512}$ pixels on a
+10 cm $\times$ 10 cm square sensor. The lenses to be used have a focal
+length of 16 cm, with the focus fixed at infinity. For corresponding
+points ($u<em>1,v</em>1$) in the left image and ($u<em>2,v</em>2$) in the right image,
+$v<em>1=v</em>2$ because the $x$-axes in the two image planes are parallel to
+the epipolar lines—the lines from the object to the camera. The optical
+axes of the two cameras are parallel. The baseline between the cameras
+is 1 meter.</p>
+
+<ol>
+<li><p>If the nearest distance to be measured is 16 meters, what is the
+largest disparity that will occur (in pixels)?</p></li>
+
+<li><p>What is the distance resolution at 16 meters, due to the pixel
+spacing?</p></li>
+
+<li><p>What distance corresponds to a disparity of one pixel?</p></li>
+</ol>
+
+<p><strong>24.6</strong> Which of the following are true, and which are false?</p>
+
+<ol>
+<li><p>Finding corresponding points in stereo images is the easiest phase
+of the stereo depth-finding process.</p></li>
+
+<li><p>Shape-from-texture can be done by projecting a grid of light-stripes
+onto the scene.</p></li>
+
+<li><p>Lines with equal lengths in the scene always project to equal
+lengths in the image.</p></li>
+
+<li><p>Straight lines in the image necessarily correspond to straight lines
+in the scene.</p></li>
+</ol>
+
+<p><strong>24.7</strong> Which of the following are true, and which are false?</p>
+
+<ol>
+<li><p>Finding corresponding points in stereo images is the easiest phase
+of the stereo depth-finding process.</p></li>
+
+<li><p>In stereo views of the same scene, greater accuracy is obtained in
+the depth calculations if the two camera positions are
+farther apart.</p></li>
+
+<li><p>Lines with equal lengths in the scene always project to equal
+lengths in the image.</p></li>
+
+<li><p>Straight lines in the image necessarily correspond to straight lines
+in the scene.</p></li>
+</ol>
+
+<p><center>
+<b id="bottle-figure">Figure [bottle-figure]</b> Top view of
+a two-camera vision system observing a bottle with a wall behind it.
+</center></p>
+
+<p><img src="http://nalinc.github.io/aima-exercises/Jupyter%20notebook/figures/bottle-stereo.svg" alt="bottle-figure" /></p>
+
+<p><strong>24.8</strong> (Courtesy of Pietro Perona.) Figure <a href="#bottle-figure">bottle-figure</a> shows
+two cameras at X and Y observing a scene. Draw the image seen at each
+camera, assuming that all named points are in the same horizontal plane.
+What can be concluded from these two images about the relative distances
+of points A, B, C, D, and E from the camera baseline, and on what basis?</p>
+                
+                
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" >
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/pnorvig?lang=en" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/aimacode/aima-exercises" class="icon round fa-github"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.facebook.com/peter.norvig" class="icon round fa-facebook"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright" >
+						&copy; Peter Norvig . Design: <a href="github.com/kaustabhganguly" style="text-decoration:none; " >Kaustabh Ganguly</a>. Mentor: <a href="https://images.gr-assets.com/authors/1483785693p8/15468.jpg" style="text-decoration:none; ">Peter Norvig</a>.
+					</div>
+
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

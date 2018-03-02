@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercises</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">AIMA <span>Exercises</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">More Info</a></li>
+					<li><a href="exercises.html">Exercises</a></li>
+				</ul>
+			</nav>
+		<!-- Main -->
+			<div id="main" class="container" style = " text-align: left; ">
+
+				<!-- Content -->
+				<h5><b>EXERCISES</b></h1>
+        <h1 id="21reinforcementlearning">21. Reinforcement Learning</h1>
+
+<p><strong>21.1</strong> Implement a passive learning agent in a simple environment, such as the
+$4\times 3$ world. For the case of an initially unknown environment
+model, compare the learning performance of the direct utility
+estimation, TD, and ADP algorithms. Do the comparison for the optimal
+policy and for several random policies. For which do the utility
+estimates converge faster? What happens when the size of the environment
+is increased? (Try environments with and without obstacles.)</p>
+
+<p><strong>21.2</strong> Chapter <a href="#/">complex-decisions-chapter</a> defined a
+<strong>proper policy</strong> for an MDP as one that is
+guaranteed to reach a terminal state. Show that it is possible for a
+passive ADP agent to learn a transition model for which its policy $\pi$
+is improper even if $\pi$ is proper for the true MDP; with such models,
+the POLICY-EVALUATION step may fail if $\gamma{{,=,}}1$. Show that this problem cannot
+arise if POLICY-EVALUATION is applied to the learned model only at the end of a trial.</p>
+
+<p><strong>21.3</strong> [prioritized-sweeping-exercise]Starting with the passive ADP agent,
+modify it to use an approximate ADP algorithm as discussed in the text.
+Do this in two steps:</p>
+
+<ol>
+<li><p>Implement a priority queue for adjustments to the utility estimates.
+Whenever a state is adjusted, all of its predecessors also become
+candidates for adjustment and should be added to the queue. The
+queue is initialized with the state from which the most recent
+transition took place. Allow only a fixed number of adjustments.</p></li>
+
+<li><p>Experiment with various heuristics for ordering the priority queue,
+examining their effect on learning rates and computation time.</p></li>
+</ol>
+
+<p><strong>21.4</strong> The direct utility estimation method in
+Section <a href="#/">passive-rl-section</a> uses distinguished terminal
+states to indicate the end of a trial. How could it be modified for
+environments with discounted rewards and no terminal states?</p>
+
+<p><strong>21.5</strong> Write out the parameter update equations for TD learning with
+$$\hat{U}(x,y) = \theta<em>0 + \theta</em>1 x + \theta<em>2 y + \theta</em>3,\sqrt{(x-x<em>g)^2 + (y-y</em>g)^2}\ .$$</p>
+
+<p><strong>21.6</strong> Adapt the vacuum world (Chapter <a href="#/">agents-chapter</a>) for
+reinforcement learning by including rewards for squares being clean.
+Make the world observable by providing suitable percepts. Now experiment
+with different reinforcement learning agents. Is function approximation
+necessary for success? What sort of approximator works for this
+application?</p>
+
+<p><strong>21.7</strong> [approx-LMS-exercise]Implement an exploring reinforcement learning
+agent that uses direct utility estimation. Make two versions—one with a
+tabular representation and one using the function approximator in
+Equation (<a href="#/">4x3-linear-approx-equation</a>). Compare their
+performance in three environments:</p>
+
+<ol>
+<li><p>The $4\times 3$ world described in the chapter.</p></li>
+
+<li><p>A ${10}\times {10}$ world with no obstacles and a +1 reward
+at (10,10).</p></li>
+
+<li><p>A ${10}\times {10}$ world with no obstacles and a +1 reward
+at (5,5).</p></li>
+</ol>
+
+<p><strong>21.8</strong> Devise suitable features for reinforcement learning in stochastic grid
+worlds (generalizations of the $4\times 3$ world) that contain multiple
+obstacles and multiple terminal states with rewards of $+1$ or $-1$.</p>
+
+<p><strong>21.9</strong> Extend the standard game-playing environment
+(Chapter <a href="#/">game-playing-chapter</a>) to incorporate a reward
+signal. Put two reinforcement learning agents into the environment (they
+may, of course, share the agent program) and have them play against each
+other. Apply the generalized TD update rule
+(Equation (<a href="#/">generalized-td-equation</a>)) to update the
+evaluation function. You might wish to start with a simple linear
+weighted evaluation function and a simple game, such as tic-tac-toe.</p>
+
+<p><strong>21.10</strong> [10x10-exercise] Compute the true utility function and the best linear
+approximation in $x$ and $y$ (as in
+Equation (<a href="#/">4x3-linear-approx-equation</a>)) for the
+following environments:</p>
+
+<ol>
+<li><p>A ${10}\times {10}$ world with a single $+1$ terminal state
+at (10,10).</p></li>
+
+<li><p>As in (a), but add a $-1$ terminal state at (10,1).</p></li>
+
+<li><p>As in (b), but add obstacles in 10 randomly selected squares.</p></li>
+
+<li><p>As in (b), but place a wall stretching from (5,2) to (5,9).</p></li>
+
+<li><p>As in (a), but with the terminal state at (5,5).</p></li>
+</ol>
+
+<p>The actions are deterministic moves in the four directions. In each
+case, compare the results using three-dimensional plots. For each
+environment, propose additional features (besides $x$ and $y$) that
+would improve the approximation and show the results.</p>
+
+<p><strong>21.11</strong> Implement the REINFORCE and PEGASUS algorithms and apply them to the $4\times 3$ world,
+using a policy family of your own choosing. Comment on the results.</p>
+
+<p><strong>21.12</strong> Investigate the application of reinforcement learning ideas to the
+modeling of human and animal behavior.</p>
+
+<p><strong>21.13</strong> Is reinforcement learning an appropriate abstract model for evolution?
+What connection exists, if any, between hardwired reward signals and
+evolutionary fitness?</p>
+                
+                
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" >
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/pnorvig?lang=en" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/aimacode/aima-exercises" class="icon round fa-github"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.facebook.com/peter.norvig" class="icon round fa-facebook"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright" >
+						&copy; Peter Norvig . Design: <a href="github.com/kaustabhganguly" style="text-decoration:none; " >Kaustabh Ganguly</a>. Mentor: <a href="https://images.gr-assets.com/authors/1483785693p8/15468.jpg" style="text-decoration:none; ">Peter Norvig</a>.
+					</div>
+
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

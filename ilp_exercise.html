@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercises</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">AIMA <span>Exercises</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">More Info</a></li>
+					<li><a href="exercises.html">Exercises</a></li>
+				</ul>
+			</nav>
+		<!-- Main -->
+			<div id="main" class="container" style = " text-align: left; ">
+
+				<!-- Content -->
+				<h5><b>EXERCISES</b></h1>
+        <h1 id="19knowledgeinlearning">19. Knowledge in Learning</h1>
+
+<p><strong>19.1</strong> [dbsig-exercise]Show, by translating into conjunctive normal form and
+applying resolution, that the conclusion drawn on page <a href="#/">dbsig-page</a>
+concerning Brazilians is sound.</p>
+
+<p><strong>19.2</strong> For each of the following determinations, write down the logical
+representation and explain why the determination is true (if it is):</p>
+
+<ol>
+<li><p>Design and denomination determine the mass of a coin.</p></li>
+
+<li><p>For a given program, input determines output.</p></li>
+
+<li><p>Climate, food intake, exercise, and metabolism determine weight gain
+and loss.</p></li>
+
+<li><p>Baldness is determined by the baldness (or lack thereof) of one’s
+maternal grandfather.</p></li>
+</ol>
+
+<p><strong>19.3</strong> For each of the following determinations, write down the logical
+representation and explain why the determination is true (if it is):</p>
+
+<ol>
+<li><p>Zip code determines the state (U.S.).</p></li>
+
+<li><p>Design and denomination determine the mass of a coin.</p></li>
+
+<li><p>Climate, food intake, exercise, and metabolism determine weight gain
+and loss.</p></li>
+
+<li><p>Baldness is determined by the baldness (or lack thereof) of one’s
+maternal grandfather.</p></li>
+</ol>
+
+<p><strong>19.4</strong> Would a probabilistic version of determinations be useful? Suggest a
+definition.</p>
+
+<p><strong>19.5</strong> [ir-step-exercise]Fill in the missing values for the clauses $C<em>1$ or
+$C</em>2$ (or both) in the following sets of clauses, given that $C$ is the
+resolvent of $C<em>1$ and $C</em>2$:</p>
+
+<ol>
+<li><p>$C = {True} {\:\;{\Rightarrow}\:\;}P(A,B)$,
+$C<em>1 = P(x,y) {\:\;{\Rightarrow}\:\;}Q(x,y)$, $C</em>2
+= ??$.</p></li>
+
+<li><p>$C = {True} {\:\;{\Rightarrow}\:\;}P(A,B)$, $C<em>1 = ??$,
+$C</em>2 = ??$.</p></li>
+
+<li><p>$C = P(x,y) {\:\;{\Rightarrow}\:\;}P(x,f(y))$, $C<em>1 = ??$,
+$C</em>2 = ??$.</p></li>
+</ol>
+
+<p>If there is more than one possible solution, provide one example of each
+different kind.</p>
+
+<p><strong>19.6</strong> [prolog-ir-exercise]Suppose one writes a logic program that carries
+out a resolution inference step. That is, let ${Resolve}(c<em>1,c</em>2,c)$
+succeed if $c$ is the result of resolving $c<em>1$ and $c</em>2$. Normally,
+${Resolve}$ would be used as part of a theorem prover by calling it
+with $c<em>1$ and $c</em>2$ instantiated to particular clauses, thereby
+generating the resolvent $c$. Now suppose instead that we call it with
+$c$ instantiated and $c<em>1$ and $c</em>2$ uninstantiated. Will this succeed
+in generating the appropriate results of an inverse resolution step?
+Would you need any special modifications to the logic programming system
+for this to work?</p>
+
+<p><strong>19.7</strong> [foil-literals-exercise]Suppose that is considering adding a literal
+to a clause using a binary predicate $P$ and that previous literals
+(including the head of the clause) contain five different variables.</p>
+
+<ol>
+<li><p>How many functionally different literals can be generated? Two
+literals are functionally identical if they differ only in the names
+of the <em>new</em> variables that they contain.</p></li>
+
+<li><p>Can you find a general formula for the number of different literals
+with a predicate of arity $r$ when there are $n$ variables
+previously used?</p></li>
+
+<li><p>Why does not allow literals that contain no previously used
+variables?</p></li>
+</ol>
+
+<p><strong>19.8</strong> Using the data from the family tree in
+Figure <a href="#/">family2-figure</a>, or a subset thereof, apply the
+algorithm to learn a definition for the ${Ancestor}$ predicate.</p>
+                
+                
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" >
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/pnorvig?lang=en" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/aimacode/aima-exercises" class="icon round fa-github"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.facebook.com/peter.norvig" class="icon round fa-facebook"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright" >
+						&copy; Peter Norvig . Design: <a href="github.com/kaustabhganguly" style="text-decoration:none; " >Kaustabh Ganguly</a>. Mentor: <a href="https://images.gr-assets.com/authors/1483785693p8/15468.jpg" style="text-decoration:none; ">Peter Norvig</a>.
+					</div>
+
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

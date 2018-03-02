@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercises</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">AIMA <span>Exercises</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">More Info</a></li>
+					<li><a href="exercises.html">Exercises</a></li>
+				</ul>
+			</nav>
+		<!-- Main -->
+			<div id="main" class="container" style = " text-align: left; ">
+
+				<!-- Content -->
+				<h5><b>EXERCISES</b></h1>
+                
+                
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" >
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/pnorvig?lang=en" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/aimacode/aima-exercises" class="icon round fa-github"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.facebook.com/peter.norvig" class="icon round fa-facebook"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright" >
+						&copy; Peter Norvig . Design: <a href="github.com/kaustabhganguly" style="text-decoration:none; " >Kaustabh Ganguly</a>. Mentor: <a href="https://images.gr-assets.com/authors/1483785693p8/15468.jpg" style="text-decoration:none; ">Peter Norvig</a>.
+					</div>
+
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
