@@ -1,4 +1,4 @@
-# AIMA EXERCISE GITHUB PAGE 
+# This is my OLD AIMA EXERCISE GITHUB PAGE which Is not the one I'm presenting .
 
 This was the 1st website design that I made for AIMA-EXERCISE . I wrote a lot of CSS clippings for this .
 
