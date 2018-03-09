@@ -1,4 +1,4 @@
-# This is my OLD AIMA EXERCISE GITHUB PAGE which Is not the one I'm presenting .
+# This is the old Aima Exercise page which I started building first , then after suggestion of my Mentor Peter I changed to the new website linked below .
 
 This was the 1st website design that I made for AIMA-EXERCISE . I wrote a lot of CSS clippings for this .
 
