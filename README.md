@@ -1,22 +1,20 @@
 # AIMA EXERCISE GITHUB PAGE 
 
-- Intro Exercise
-- Advanced Search exercise
-- Advanced Planning Exercise
+This was the 1st website design that I made for AIMA-EXERCISE . I wrote a lot of CSS clippings for this .
 
-The above three are online . The rest exercises are on the way .
+Then I changed the website to a more whitish and minimalistic paper like website , which is currently live at https://kaustabhganguly.github.io and source code at https://www.github.com/kaustabhganguly/kaustabhganguly.github.io
 
-In the kaustabhganguly.github.io/exercises.html page ✓ sign indicates the exercises that are online .
 
-## Advanced Search Exercise is full solved with solutions , except a few questions . Other Exercises will be like this .
+This website :
+# Website is live [here](https://kaustabhganguly.github.io/Cool-website-aima/)
 
-I added Hover effect for the answers so the answer doesn't show directly and making it as a hover effect makes the website very fast rather than making a button .
 
-Advanced Planning Exercise is very errorish and I will correct it later after I make all exercise Online .
+# Note :
 
-I made a lot of changes to the design and style and it loads a lot faster now . 
+- Many Exercises are not properly formatted as I changed the design midway .
+- Not well mobile support
+- Incomplete jekyll portion of the website which I was building to show that I am comfortable with any framework and can learn anything if needed . But I stopped midway to shift my attention to make the new website .
 
-# Website is live [here](kaustabhganguly.github.io)
 
-- For Peter Norvig
+
 
