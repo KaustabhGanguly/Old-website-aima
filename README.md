@@ -3,7 +3,7 @@
 This was the 1st website design that I made for AIMA-EXERCISE . I wrote a lot of CSS clippings for this .
 
 
-The website is live at : https://kaustabhganguly.github.io/aima-exercise-1
+The website is live at : https://kaustabhganguly.github.io/aima-website-1
 
 
 
